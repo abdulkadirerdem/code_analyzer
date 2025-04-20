@@ -1,0 +1,8 @@
+
+.pytest_cache/
+*/.pytest_cache/
+*/__pycache__/
+*/pycache/
+*/.DS_Store
+*/.idea
+*/.vscode
