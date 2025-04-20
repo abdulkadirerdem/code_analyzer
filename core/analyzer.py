@@ -16,7 +16,6 @@ def calculate_fan_in_out(graph: nx.DiGraph) -> dict:
 
 
 def find_dead_exports(file_data: dict) -> dict:
-    # tüm kodu string olarak birleştir
     all_code = ""
     for fpath in file_data:
         with open(fpath, "r", encoding="utf-8") as f:
